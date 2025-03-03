@@ -328,11 +328,15 @@
                   </p>
                 </dd>
                 <dt>
-                  <code>require_interaction</code>
+                  <code>requireInteraction</code>
                 </dt>
                 <dd>
                   <p>
                     A boolean.
+                  </p>
+                  <p class="note">
+                    This is not named <code>require_interaction</code> for consistency with the
+                    {{NotificationOptions}} dictionary.
                   </p>
                 </dd>
                 <dt>
@@ -574,10 +578,10 @@
             </li>
             <li>
               <p>
-                If <var>notificationInput</var>["`require_interaction`"] [=map/exists=] and is a
+                If <var>notificationInput</var>["`requireInteraction`"] [=map/exists=] and is a
                 boolean, then set
                 <var>notificationOptions</var>["{{NotificationOptions/requireInteraction}}"] to
-                <var>notificationInput</var>["`require_interaction`"].
+                <var>notificationInput</var>["`requireInteraction`"].
               </p>
             </li>
             <li>
